@@ -8,6 +8,7 @@ This Python code implements the Apriori algorithm for frequent pattern mining. T
 that are frequent in the input data. After implementing the Apriori algorithm, please set the relative minimum 
 support to 0.01 and run it on the 77,185 category lists. 
 In other words, you need to extract all the category sets that have an absolute support no smaller than 771.
+
 a. Please output all the length-1 frequent categories (item sets) with their absolute supports in the descending 
 order of their support count, into a text file named patterns_1.txt. Also report the total count of the frequent 
 item sets. Every line corresponds to exactly one frequent category and should be in the following format: (7
@@ -17,6 +18,7 @@ Category : Support
 For example, suppose a category (Fast Food) has an absolute support 3000, then the line corresponding to this 
 frequent category set in patterns.txt should be:
 Fast Food : 3000
+
 b. Write all the frequent category sets along with their absolute supports in the descending order of their 
 support count, into a text file named patterns_all.txt. Also report the total count of the frequent item sets. 
 Every line corresponds to exactly one frequent category set and should be in the following format: (4 points)
