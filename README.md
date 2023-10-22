@@ -28,6 +28,7 @@ For example, suppose a category set (Fast Food; Restaurants) has an absolute sup
 corresponding to this frequent category set in patterns_all.txt should be:
 #Total count
 Fast Food; Restaurants : 2851
+
 2. Mine the set of all Closed Frequent Itemsets (CFI’s) for the relative minimum support of 0.01 that you used 
 to mine the frequent item sets and write the output in the descending order of support count, into a file 
 named patterns_close.txt in the following format. Also report the total count of the frequent item sets. (4
